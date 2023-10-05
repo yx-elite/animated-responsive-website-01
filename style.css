@@ -187,4 +187,14 @@ h1 {
         width: 18px;
         margin: 0;
     }
+    .hero {
+        background-image: url(./img/small-bg.png);
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .hero {
+        background-color: url(./img/medium-bg.png);
+    }
 }
